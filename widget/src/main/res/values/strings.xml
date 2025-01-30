@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="widget_description">Hello World!</string>
+    <string name="user_image_description">User Image</string>
+    <string name="error_loading_widget">Widget の読み込みに失敗しました</string>
+</resources>
