@@ -7,7 +7,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.widget"
+    namespace = "com.example.core"
     compileSdk = 34
 
     defaultConfig {
@@ -44,19 +44,10 @@ android {
 }
 
 dependencies {
-    implementation(projects.core)
-
-    implementation(libs.androidx.lifecycle.runtime.compose.android)
-    implementation(libs.androidx.ui.text.android)
+    implementation(libs.androidx.core.ktx)
 
     implementation(libs.hilt.android)
     ksp(libs.hilt.compiler)
     implementation(libs.hilt.navigation.compose)
-    
     implementation(libs.coil.compose)
-
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.glance.appwidget)
-    implementation(libs.androidx.glance.material3)
-    implementation(libs.androidx.glance.material)
 }
